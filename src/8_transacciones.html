@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/garra.png" type="image/x-icon">  <!-- Icono para la pestaña -->
+    <title>Transacciones</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+        crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url(assets/images/fondo.png);
+        }
+    
+        h1 {
+            color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagos y transferencias:</h1>
+        <form name="pago" method="post" action="8.1_transacciones.php">
+            <div class="list-group float-start">
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Trimestre - $128.43" name="monto[]">
+                    $128.43
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Anualidad - $128.43" name="monto[]">
+                    $128.43
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Biblioteca - $10.00" name="monto[]">
+                    $10.00
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Comedor - $7.00" name="monto[]">
+                    $7.00
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Examen Recuperacion - $4.40" name="monto[]">
+                    $4.40
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Libreria - $500.00" name="monto[]">
+                    $500.00
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary">
+                    <input class="form-check-input me-1" type="checkbox" value="Barra Fria - $70.00" name="monto[]">
+                    $70.00
+                </label>
+                <label class="list-group-item list-group-item-action list-group-item-secondary disabled">
+                    <input class="form-check-input me-1" type="checkbox" value="ransferencia" name="monto[]">
+                    -------
+                </label>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-secondary">
+                    Efectuar pago de trimestre
+                </li>
+                <li class="list-group-item list-group-item-secondary">
+                    Efectuar pago de anualidad
+                </li>
+                <li class="list-group-item list-group-item-secondary">
+                    Efectuar pago de adeudos de biblioteca
+                </li>
+                <li class="list-group-item list-group-item-secondary">
+                    Efectuar pago en comedor
+                </li>
+                <li class="list-group-item list-group-item-secondary">
+                    Efectuar pago en exámenes de recuperación
+                </li>
+                <li class="list-group-item list-group-item-secondary">
+                    Realizar compra de articulos en librería
+                </li>
+                <li class="list-group-item list-group-item-secondary">
+                    Realizar compra de comestibles en la "barra fría"
+                </li>
+                <li class="list-group-item list-group-item-secondary disabled">
+                    Efectuar transferencia
+                </li>
+            </ul>
+            <br>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-dark" name="btnPago" id="btnPago">Pagar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

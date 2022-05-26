@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+        crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url(assets/images/fondo1.jpg);
+        }
+
+        #lista {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- mb-3 margin, style tamaño definido -->
+        <div class="card text-white bg-success mb-3" style="max-width: 23rem;">
+            <img src="assets/images/user.png" class="mx-auto" alt="User" title="Usuario" width="70">
+            <div class="card-body">
+                <h5 class="card-title">Usuario</h5>
+                <p class="card-text">Perfil</p>
+                <!-- flush para incluir en la lista -->
+                <ul class="list-group list-group-flush list-group-horizontal">
+                    <li class="list-group-item list-group-item-action list-group-item-success">Nombre completo</li>
+                    <li class="list-group-item list-group-item-action list-group-item-success">Número de cliente</li>
+                    <li class="list-group-item list-group-item-action list-group-item-success">Datos de contacto</li>
+                </ul>
+                <ul class="list-group list-group-flush list-group-horizontal">
+                    <li class="list-group-item list-group-item-action list-group-item-success">Datos personales</li>
+                    <li class="list-group-item list-group-item-action list-group-item-success">Direcciones</li>
+                    <li class="list-group-item list-group-item-action list-group-item-success">Contratos</li>
+                </ul>
+            </div>
+        </div>
+        <!--Lista de configuraciones extra para el socio-->
+        <ul class="list-group list-group-numbered" id="lista">
+            <li class="list-group-item list-group-item-action list-group-item-dark">Configuración</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">Seguridad y privacidad</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">Token móvil</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">Operación QR + CoDi</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">Sostenibilidad</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">Aclaraciones</li>
+            <li class="list-group-item list-group-item-action list-group-item-dark">Acerca de Divisas Pantera</li>
+        </ul>
+        <br>
+    </div>
+</body>
+</html>
