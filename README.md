@@ -2,6 +2,8 @@
 
 UEA: Desarrollo De Aplicaciones Web.
 
+Proyecto Final.
+
 Página web dinámica alojada en un servidor web, la página cumple lo siguiente:
 
 • Archivos HTML
