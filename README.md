@@ -51,7 +51,9 @@ Posteriormente con presionar el botón de “Log In” se tendrá acceso (esta e
 
 ![image](https://user-images.githubusercontent.com/72325257/171967314-e96f3705-bf07-4f85-b742-f7c598b8de0c.png)
 
+
 Al presionar el botón de “Explicación” de cada operación, se muestra un poco de en qué consiste cada una.
+
 
 ![image](https://user-images.githubusercontent.com/72325257/171967357-6915f029-f2ff-42db-8c53-d980d095b441.png)
 
