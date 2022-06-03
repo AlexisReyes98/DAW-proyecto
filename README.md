@@ -19,11 +19,11 @@ Negocio asignado: Portal Bancario.
 Utiliza la página web de tu negocio y ubícala en el directorio de tu servidor para que se pueda visualizar, además se implementaron tres funciones en PHP y en JavaScript.
 Las adecuadas para el negocio.
 
-Ejecución.
-
 Directorio del proyecto:
 
 ![image](https://user-images.githubusercontent.com/72325257/171967109-d52a7dd5-ab58-4356-8c3c-49037246423e.png)
+
+Ejecución.
 
 ![image](https://user-images.githubusercontent.com/72325257/171967159-d035951a-1368-4c88-a076-7abe3dc50c1b.png)
 
